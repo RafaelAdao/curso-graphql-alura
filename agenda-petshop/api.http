@@ -1,0 +1,10 @@
+GET http://localhost:4000/clientes
+
+###
+POST http://localhost:4000/clientes/cliente
+Content-Type: application/json
+
+{
+  "nome": "Rafael Adão",
+  "cpf": "07959521980"
+}
